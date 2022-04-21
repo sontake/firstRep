@@ -42,6 +42,7 @@ public class ContactsPageTest extends TestBase{
 	{
 		contactsPage.clickOnAddCOntactsLink();
 		contactsPage.AddNewContactsDetails("Akki", "Vakki");
+		System.out.println("..........."); 
 	}
 	
 	@AfterMethod
