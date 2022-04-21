@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestNg Groups Suite Pages" verbose="1" >
+  <test name="TestNG Pages Groups" >
+  
+    <classes>
+      
+      <class name="com.crm.qa.testcases.LoginPageTest"/>
+      <class name="com.crm.qa.testcases.HomePageTest"/>
+      <class name="com.crm.qa.testcases.ContactsPageTest"/>
+     
+    </classes>
+    
+  </test>
+</suite>
+
